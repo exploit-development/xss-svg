@@ -17,7 +17,7 @@ The PoC illustrates how an attacker introduce XSS to a web application. The incl
 1. **Clone this repository:**
 
     ```bash
-    git clone https://github.com/codesecure-org/xss-svg.git
+    git clone https://github.com/exploit-development/xss-svg.git
     ```
 
 2. **Upload the SVG file (`1.svg`) to your web server:**
